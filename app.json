@@ -1,0 +1,23 @@
+{
+  "id": "292946dd-bb8b-4569-8745-7ac4b104e71f",
+  "name": "SCR206 Pop-up comments",
+  "publisher": "Systemcenter LAGL",
+  "brief": "",
+  "description": "Denne tilpasning giver mulighed for at oprette bemærkninger på debitorer, som enten bliver vist, når der oprettes en ny ordre til debitoren, eller danner tekstlinjer på oprettede ordrer",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50399
+  }
+}
