@@ -6,14 +6,7 @@ codeunit 50208 "SCR Event subscribtion"
         IF Rec."No." <> '' THEN 
           ShowPopup(rec);
     end;
-
-    [EventSubscriber(ObjectType::table, 36, 'OnAfterInsertEvent','', true, true)]
-    local procedure OnInsert(Rec: Record "Sales Header");
-    begin
-        IF Rec."No." <> '' THEN 
-          ShowPopup(rec);
-    end;
-    
+   
     local procedure ShowPopup(Var SalesHeader: Record "Sales Header");
     var
         CommentLine: Record "Comment Line";

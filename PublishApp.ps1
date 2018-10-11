@@ -13,3 +13,5 @@ Unpublish-NAVApp -ServerInstance DynamicsNAV110 -Name "SCR206 Pop-up comments"
 Sync-NAVTenant -ServerInstance DynamicsNAV110
 # Remove the tables if the app is gone
 Sync-NAVApp -ServerInstance DynamicsNAV110 -Name "SCR206 Pop-up comments" -Mode Clean
+
+Get-nava
