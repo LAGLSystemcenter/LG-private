@@ -18,7 +18,7 @@ pageextension 50206 "SCR Comment Sheet Extension" extends "Comment Sheet"
 
     trigger OnAfterGetRecord();
     begin
-        EVALUATE(CodeOption, Rec.Code);
+        IF EVALUATE(CodeOption, Rec.Code) THEN;
     end;
 
     var

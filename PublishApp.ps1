@@ -14,4 +14,4 @@ Sync-NAVTenant -ServerInstance DynamicsNAV110
 # Remove the tables if the app is gone
 Sync-NAVApp -ServerInstance DynamicsNAV110 -Name "SCR206 Pop-up comments" -Mode Clean
 
-Get-nava
+Get-NavAppRuntimePackage -ServerInstance DynamicsNAV110 -Name "SCR206 Pop-up comments" -Path C:\TEMP\Ext_popup_RT2.app
