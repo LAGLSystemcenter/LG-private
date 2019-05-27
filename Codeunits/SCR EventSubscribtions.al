@@ -3,7 +3,7 @@ codeunit 50206 "SCR Event subscribtion"
     [EventSubscriber(ObjectType::table, 36, 'OnAfterValidateEvent', 'Sell-to Customer No.', true, true)]
     local procedure OnCustomerValidate(Rec: Record "Sales Header");
     begin
-        // Show pop-up
+        // Show pop-up 
         IF Rec."No." <> '' THEN 
           ShowPopup(rec);
     end;
